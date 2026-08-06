@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://your-render-backend-url.onrender.com/",
+  baseURL: "https://nimbus-backend-mab3.onrender.com",
 });
 
 // Automatically attach JWT to every request
