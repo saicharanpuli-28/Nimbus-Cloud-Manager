@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://YOUR-RENDER-BACKEND-URL.onrender.com",
 });
 
 // Automatically attach JWT to every request
